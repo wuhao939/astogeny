@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: astogeny
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 292329
+    url: jdbc:mysql://39.105.176.104:3306/test
+server:
+  port: 8080
