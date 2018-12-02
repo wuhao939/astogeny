@@ -5,7 +5,8 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 292329
-    url: jdbc:mysql://localhost:3306/yinfajihua
+    #url: jdbc:mysql://localhost:3306/yinfajihua
+    url: jdbc:mysql://39.105.176.104:3306/mytest
   jpa:
     open-in-view: true
 server:

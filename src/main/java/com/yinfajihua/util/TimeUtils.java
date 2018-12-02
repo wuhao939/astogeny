@@ -11,7 +11,6 @@ public class TimeUtils {
         return simpleDateFormat.format(new Date());
     }
     public static String cal_time_diff(String target_time) throws ParseException {
-        target_time = target_time.substring(0,target_time.length()-2);
         String current_time = simpleDateFormat.format(new Date());
         long from = simpleDateFormat.parse(target_time).getTime();
         long to = simpleDateFormat.parse(current_time).getTime();
